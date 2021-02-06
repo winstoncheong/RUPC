@@ -15,9 +15,6 @@ class Window:
         self.bottom = y + height - 1
         self.zorder = zorder
 
-    def __repr__(self):
-        pass
-
     def enforce_screen(self, screenX, screenY):
         """Trim parts of window that are outside of screen"""
 
@@ -29,9 +26,6 @@ class Window:
             self.right = screenX - 1
         if self.bottom >= screenY:
             self.bottom = screenY - 1
-
-
-        
 
 def calculate_visible(windows, i):
     """Calculate visible portion of the i-th window. 
@@ -46,8 +40,7 @@ def calculate_visible(windows, i):
     visible_top = window.top
     visible_bottom = window.bottom
 
-
-    can_cover =  [w for w in windows if w.zorder > window.zorder]
+    can_cover = [w for w in windows if w.zorder > window.zorder]
 
     for w in can_cover:
         # check if obscures left
@@ -73,8 +66,6 @@ def calculate_visible(windows, i):
             if w.top <= visible_bottom and w.bottom >= visible_bottom:
                 # obscures bottom
                 visible_bottom = w.top - 1
-
-    #print(f'({visible_left}, {visible_top}) to ({visible_right}, {visible_bottom})')
 
     if visible_left > visible_right or visible_top > visible_bottom:
         return "completely obscured"
@@ -103,6 +94,3 @@ for i in range(num_datasets):
     for j in range(num_windows):
         print(f'   Window {j+1}: {calculate_visible(windows, j)}')
     
-
-
-    # reset for new dataset
