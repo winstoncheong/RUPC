@@ -1,0 +1,50 @@
+Analyzing 5 Data sets
+ Data set 1:
+  Screen size: 100 x 100
+  Windows: 5
+   Window 1: (40, 40) to (60, 60)
+   Window 2: (20, 41) to (39, 59)
+   Window 3: (61, 41) to (80, 59)
+   Window 4: (41, 20) to (59, 39)
+   Window 5: (41, 61) to (59, 80)
+ Data set 2:
+  Screen size: 100 x 100
+  Windows: 2
+   Window 1: (20, 20) to (40, 40)
+   Window 2: (60, 60) to (80, 80)
+ Data set 3:
+  Screen size: 100 x 100
+  Windows: 10
+   Window 1: (40, 41) to (49, 54)
+   Window 2: (15, 70) to (85, 80)
+   Window 3: (50, 41) to (64, 54)
+   Window 4: (36, 55) to (64, 60)
+   Window 5: (65, 21) to (80, 69)
+   Window 6: (36, 41) to (39, 54)
+   Window 7: (20, 20) to (35, 69)
+   Window 8: (65, 10) to (80, 20)
+   Window 9: (36, 25) to (64, 40)
+   Window 10: (15, 81) to (49, 99)
+ Data set 4:
+  Screen size: 1920 x 1080
+  Windows: 6
+   Window 1: completely obscured
+   Window 2: completely obscured
+   Window 3: completely obscured
+   Window 4: completely obscured
+   Window 5: (0, 100) to (0, 109)
+   Window 6: completely obscured
+ Data set 5:
+  Screen size: 100 x 100
+  Windows: 11
+   Window 1: (36, 55) to (59, 60)
+   Window 2: (36, 41) to (39, 54)
+   Window 3: completely obscured
+   Window 4: (50, 41) to (59, 54)
+   Window 5: (36, 25) to (59, 40)
+   Window 6: completely obscured
+   Window 7: (40, 41) to (49, 54)
+   Window 8: (20, 20) to (35, 69)
+   Window 9: (15, 70) to (59, 80)
+   Window 10: (15, 81) to (49, 99)
+   Window 11: (60, 5) to (89, 94)

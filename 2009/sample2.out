@@ -1,0 +1,26 @@
+Analyzing 4 Data sets
+ Data set 1:
+  Screen size: 1280 x 720
+  Windows: 2
+   Window 1: (0, 100) to (99, 199)
+   Window 2: (1200, 700) to (1279, 719)
+ Data set 2:
+  Screen size: 800 x 600
+  Windows: 5
+   Window 1: completely obscured
+   Window 2: completely obscured
+   Window 3: completely obscured
+   Window 4: completely obscured
+   Window 5: (0, 0) to (799, 599)
+ Data set 3:
+  Screen size: 432 x 240
+  Windows: 3
+   Window 1: (50, 50) to (99, 149)
+   Window 2: (100, 50) to (149, 149)
+   Window 3: (150, 50) to (249, 149)
+ Data set 4:
+  Screen size: 1920 x 1080
+  Windows: 3
+   Window 1: (100, 100) to (1099, 599)
+   Window 2: completely obscured
+   Window 3: completely obscured

@@ -1,0 +1,14 @@
+Analyzing 2 Data sets
+ Data set 1:
+  Screen size: 1280 x 720
+  Windows: 3
+   Window 1: (200, 80) to (399, 619)
+   Window 2: (400, 120) to (999, 419)
+   Window 3: (1000, 320) to (1199, 519)
+ Data set 2:
+  Screen size: 320 x 480
+  Windows: 4
+   Window 1: (0, 0) to (159, 239)
+   Window 2: (160, 0) to (319, 239)
+   Window 3: (0, 240) to (159, 479)
+   Window 4: (160, 240) to (319, 479)
