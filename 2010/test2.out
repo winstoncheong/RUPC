@@ -1,0 +1,13 @@
+Analyzing 3 data sets
+ Data set 0:
+  City 1 catapult destroyed after 1 shots.
+  City 1 damage: 99.97972856839618 square meters.
+  City 2 damage: 0 square meters.
+ Data set 1:
+  City 2 catapult destroyed after 5 shots.
+  City 1 damage: 9424.777960769381 square meters.
+  City 2 damage: 6283.185307179587 square meters.
+ Data set 2:
+  Neither catapult destroyed after 5 shots
+  City 1 damage: 0 square meters.
+  City 2 damage: 0 square meters.
