@@ -8,7 +8,21 @@ Python was only added as an allowed language in 2012. Before then, the allowed l
 Note: I have no real way of knowing whether my code is correct.. the test inputs seem to be tricker, with corner cases that the sample inputs don't illustrate. 
 
 ----
+# 2011: Transposition and substitution ciphers
+* Transposition involves a 25 square grid, filling in by rows, scrambling the columns, and reading by columns
+  * keyword of 5 unique letters. 
+* Substitution (Caesar)
+  * Can also use a keyword, cycling it over the message
 
+## Input spec
+* #datasets
+* for each dataset
+  * transposition keyword or `PASS`
+  * substitution keyword or `PASS`
+  * #lines to encode
+    * those lines
+  * #lines to decode
+    * those lines
 
 # 2010: Catapults, bombs, and damage assessment
 * Damage zones will never include a corner.
