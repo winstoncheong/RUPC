@@ -1,0 +1,43 @@
+2
+9
+H 10.4
+o 6.4
+e 5.6
+f 4.0
+l 3.1
+r 4.5
+T 8.5
+x 5.8
+t 4.4
+8
+Ho -0.4
+fl -0.1
+Te -1.5
+ff -0.6
+ll 0.1
+rt 0.1
+te -0.2
+to -0.2
+4
+Hoefler Text
+effort extort ferret fetter flexor offer
+forteller letter referrer reflex retort
+text troll
+5
+V 9.2
+e 5.6
+n 6.6
+u 6.3
+s 4.6
+4
+Ve -1.9
+nu -0.0
+su 0.0
+ue -0.0
+6
+Ve
+nu
+Venus
+ensue
+unseen
+sense

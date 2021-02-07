@@ -1,0 +1,43 @@
+3
+4
+A 8.8
+W 12.1
+C 8.5
+S 6.5
+3
+AW -1.3
+WA -1.3
+AC -0.3
+3
+AWACS
+SAW
+A W A
+4
+a 5.9
+f 3.6
+i 3.3
+x 6.2
+3
+ff -0.3
+fi -0.3
+ffi -0.5
+3
+affix
+fix
+if
+5
+d 6.5
+f 3.6
+i 3.3
+l 3.3
+u 6.5
+3
+fl -0.3
+fi -0.3
+ff -0.3
+5
+fluid
+fulfill
+fluff
+lid
+dull

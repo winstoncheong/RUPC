@@ -1,0 +1,46 @@
+1
+13
+R 8.8
+o 6.4
+w 8.4
+a 5.4
+n 6.6
+U 9.4
+i 3.4
+v 5.5
+e 5.6
+r 4.4
+s 4.6
+t 4.4
+y 5.5
+13
+Ro -0.5
+Un -0.7
+rw 0.5
+Ur -0.7
+as 0.1
+ov 0.1
+rn 0.1
+rt 0.1
+ry 0.5
+te -0.2
+to -0.2
+we -0.1
+wo -0.1
+16
+Rowan University
+airway anniversary aorta
+assertive eastern entertainer
+eyestrain inerrant innovative
+insane intense irony nanny
+overstate raisin yesteryear
+reiteration resistant roast
+sanitation sanity sensitivity
+serenity sonneteer sorority
+stairway stationary stationery
+stony tannin tasty variation
+tertiary titration torrent Ursa
+transverse tyrant Unitarian
+vanity waitress warrior weariness
+venostasis veterinarian visionary
+witness woven yarn yeast yore

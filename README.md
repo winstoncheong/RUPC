@@ -93,3 +93,29 @@ Note: I have no real way of knowing whether my code is correct.. the test inputs
 * Error checking
   * If improper duplicates are found, print the duplicated symbol and all grid coordinates it appears in.
   * All occurrences should be listed on one line, in increasing order by row and then by column.
+
+# 2007: 
+* Read in a list of characters, their widths, then a list of groupings which have a different width than the letters would have by themselves. 
+* Then read a number of lines of text.
+* Output the length of each line of text, if typeset using the characters and kerning/ligature adjustments as defined
+* All measurements are in 'points'. Precision only needed up to 0.1 points.
+
+* spacing between letters is 0.0 points
+* Between two words, space of 4.0 points.
+* Groupings are calculated greedily. If there is more than one applicable grouping, use the grouping that is longer (in number of characters).
+  * with groupings "ffi", "ff" and "fi", apply "ffi"
+  * with groupings A-LT-TAT vs A-LTA-AT, the latter is used.
+
+## Input spec
+* #datasets
+* For each dataset
+  * #symbols : S
+    * S lines, each with a character and the character's width in points
+  * #special character groupings : G
+    * G lines, each with the characters in the grouping and the number of points that group's width is to be adjusted.
+  * #lines text : L
+    * L lines of text. Each line with less than 80 characters. 
+
+## Output spec
+* Debug output of #data sets, #characters, #groupings, #lines
+* For each line, the width of the line
