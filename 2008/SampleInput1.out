@@ -1,0 +1,15 @@
+Analyzing 2 Grids
+ Grid 1:
+  Size: 9 x 9
+  Incorrect Sudoku-X
+    2 is repeated in diagonal 1
+      (1,1) (4,4) (8,8) 
+    9 is repeated in diagonal 2
+      (5,5) (9,1) 
+
+  Unsolved Sudoku
+
+ Grid 2:
+  Size: 5 x 5
+  Solved Latin Square
+

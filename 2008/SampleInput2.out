@@ -1,0 +1,57 @@
+Analyzing 5 Grids
+ Grid 1:
+  Size: 9 x 9
+  Incorrect Sudoku-X
+    2 is repeated in diagonal 1
+      (1,1) (4,4) 
+    9 is repeated in diagonal 2
+      (5,5) (9,1) 
+    2 is repeated in block 1
+      (1,1) (2,3) 
+
+  Incorrect Sudoku
+    2 is repeated in block 1
+      (1,1) (2,3) 
+
+  Unsolved Latin Square
+
+ Grid 2:
+  Size: 4 x 4
+  Incorrect Sudoku-X
+    1 is repeated in diagonal 1
+      (1,1) (4,4) 
+    4 is repeated in diagonal 1
+      (2,2) (3,3) 
+    1 is repeated in diagonal 2
+      (2,3) (3,2) 
+    4 is repeated in diagonal 2
+      (1,4) (4,1) 
+
+  Solved Sudoku
+
+ Grid 3:
+  Size: 9 x 9
+  Incorrect Sudoku-X
+    2 is repeated in diagonal 1
+      (1,1) (4,4) 
+    9 is repeated in diagonal 2
+      (5,5) (9,1) 
+
+  Unsolved Sudoku
+
+ Grid 4:
+  Size: 6 x 6
+  Incorrect Latin Square
+    4 is repeated in column 2
+      (4,2) (6,2) 
+    3 is repeated in column 4
+      (4,4) (6,4) 
+    3 is repeated in column 5
+      (2,5) (5,5) 
+    3 is repeated in row 2
+      (2,1) (2,2) (2,5) 
+
+ Grid 5:
+  Size: 9 x 9
+  Unsolved Sudoku-X
+

@@ -69,3 +69,27 @@ Note: I have no real way of knowing whether my code is correct.. the test inputs
   * #data sets, which dataset, screensize, #windows
 * For each window (printed in order read in):
   * Visible portion (upper-left coord to lower-right coord) OR "completely obscured"
+
+# 2008: Latin sqaures, Sudoku, and Sudoku-X
+* Given a square grid of numbers, classify it as exactly as possible.
+* A Latin square can be any size
+* A Sudoku / SudokuX must have the number rows/colums to be a perfect square (4, 9, 16, 25, ...)
+* A solved / unsolved Sudoku-X does not need to be analyzed further
+* An incorrect Sudoku-X that is a solved or unsolved Sudoku does not need to be analyzed as a Latin square
+* Do not need to check if a Sudoku is *solvable* to classify as unsolved. Just need to check that there are no duplicates in diagonals, rows, columns, and blocks (hence not incorrect)
+
+## Input spec
+* number of grids
+* for each grid (data set)
+  * number of rows and columns : `S`
+  * `S` lines, each with `S` integers (1--S) for values, 0 for unfilled
+
+## Output spec
+* validation of #grids, which grid, grid size
+* Puzzle classification 
+  * Solved / Unsolved / Incorrect Sudoku-X
+  * Solved / Unsolved / Incorrect Sudoku
+  * Solved / Unsolved / Incorrect Latin square
+* Error checking
+  * If improper duplicates are found, print the duplicated symbol and all grid coordinates it appears in.
+  * All occurrences should be listed on one line, in increasing order by row and then by column.
